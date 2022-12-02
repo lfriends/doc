@@ -1,6 +1,12 @@
 
 # Win 11 quick hacks
 
+in this guide
+- how to restore the old context menu
+- how to skip w11 minimun requirements checks (useful for VM installation)
+- how to skip logon to MSFT account during setup
+
+
 ## Context menu
 
 Restore old Context Menu in Windows 11
@@ -16,7 +22,7 @@ Restore Modern Context menus in Windows 11
 2) taskkill.exe /f /im explorer.exe; explorer
 
 
----
+
 ## How to install W11 on any machine (included VMs)
 
 At the installation screen prompts for confirming language to install etc,
@@ -31,7 +37,7 @@ At the installation screen prompts for confirming language to install etc,
         - BypassRamCheck  -> value: 1 
 
 
----
+
 ## How to skip W11 forcing to logon to MSFT during setup
 
 
