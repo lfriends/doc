@@ -8,3 +8,5 @@
 
 - ![markdown](markdown.md) : a  very basic MarkDown ref  
 
+- ![Windows Terminal customization](windows_terminal.md): some tips to customize windows terminal
+
