@@ -35,14 +35,14 @@ and let you install W11 on (almost) any W10 compatible PC.
 4. Copy all the W10 ISO content to the new "W11Mod" folder
 5. Unmoud the W10 ISO by right-clickng on the corersponding drive, and select "Eject"
 6. Mount the W11 ISO by double-clicking on it.
-7. From the W11 drive, copy the file sources\install.wim to your "W11Mod\Sources" folder
+7. From the W11 drive, copy the file sources\install.wim to your "W11Mod\Sources" folder (delete the older "Install.ESD" or "Install.WIM" )
 8. Unmoud the W11 ISO by right-clickng on the corersponding drive, and select "Eject"
 
 At this point you can:  
 
 1. create an ISO from the new W11Mod folder
     1. Option #1 use the "Media Creatio Tool" to make a USB dive botable with w10, then update the "Sources" folder
-    2. 
+    2. Option #2 software like Furon of ImgBurn to save the Folder to a bootable ISO
 3. Use the current "W11Mod" foldeer to update the current PC
     1. **REMEBER** to turn off VBS and core isolation security on your soon-to-be-updated PC, if it is still on.  
     2. Run the setup.exe app from the "W11Mod" folder
