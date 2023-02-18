@@ -3,6 +3,8 @@
 
 in this guide
 - how to restore the old context menu
+- How to install W11 on any machine using a modified ISO
+- How to run multiple ISO from a single USB drive
 - how to skip w11 minimun requirements checks (useful for VM installation)
 - how to skip logon to MSFT account during setup
 
@@ -22,9 +24,37 @@ Restore Modern Context menus in Windows 11
 2) taskkill.exe /f /im explorer.exe; explorer
 
 
+## How to install W11 on any machine using a modified ISO
+
+this process will show how to make a modifies W11 ISO what will skill all the HW checks
+and let you install W11 on (almost) any W10 compatible PC.
+
+1. Download the W10 and W11 ISOs to your desktop
+2. Mount the W10 ISO by double-clicking on ii. A new drive will show up.
+3. Create a new Folder on your desktop, lets call it "W11Mod"
+4. Copy all the W10 ISO content to the new "W11Mod" folder
+5. Unmoud the W10 ISO by right-clickng on the corersponding drive, and select "Eject"
+6. Mount the W11 ISO by double-clicking on it.
+7. From the W11 drive, copy the file sources\install.wim to your "W11Mod\Sources" folder
+8. Unmoud the W11 ISO by right-clickng on the corersponding drive, and select "Eject"
+
+At this point you can:  
+
+1. create an ISO from the new W11Mod folder
+    1. Option #1 use the "Media Creatio Tool" to make a USB dive botable with w10, then update the "Sources" folder
+    2. 
+3. Use the current "W11Mod" foldeer to update the current PC
+    1. **REMEBER** to turn off VBS and core isolation security on your soon-to-be-updated PC, if it is still on.  
+    2. Run the setup.exe app from the "W11Mod" folder
+    3. **REMEBER**  to run the installation process WITHOUT the *online assistant or updates*!
+
+
+## How to run multiple ISO from a single USB drive
+
+you can run multiple ISOs on a single USB Drive using [Ventoy](https://www.ventoy.net)
 
 ## How to install W11 on any machine (included VMs)
-
+Using the default W11 ISO
 At the installation screen prompts for confirming language to install etc,
 
 - press Shift+F10 to open the Command prompt
