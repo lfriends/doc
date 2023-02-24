@@ -1,6 +1,6 @@
 
 
-## this repo hosts some quick ref doc
+## this repo hosts some quick ref docs
 
 - ![Win 11 setup hack](w11_setup.md)
     * skip win11 validation - userful for VMs installation
