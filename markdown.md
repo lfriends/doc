@@ -12,13 +12,13 @@
 * [Sorted Lists](sorted-lists-1)
 * [Unsorted Lists](unsorted-lists)
 * [Qutes](quotes)
-    *[Code quote](code-quote)
-    *[Block quote](block-quote)
-    *[Fenced code block](fenced-code-block)
-    *[Lines quotes](lines-quote)
+    * [Code quote](code-quote)
+    * [Block quote](block-quote)
+    * [Fenced code block](fenced-code-block)
+    * [Lines quotes](lines-quotes)
 * [Links & Images](links--images)
 * [Emoji](emoji)
-* [Table](table)
+* [Tables](tables)
 * [Task List](task-list)
 * [External references](external-references)
 
@@ -146,7 +146,7 @@ But supports HTML TAGS
 
 
 
-## EMOJI
+## Emoji
 
 *  [emoji shotrcodes](https://gist.github.com/rxaviers/7360908)  `:joy:` :joy: `:tent:` :tent: `:smile:` :smile: `:poop:` :poop: `:yum:` :yum: [...]
      
@@ -154,7 +154,7 @@ But supports HTML TAGS
 *  [emoji images](https://emojipedia.org/large-red-square/) 🚀
 
 
-## Table 
+## Tables 
 
 ```| Item| Price| # In stock |
 |-----|-----|---------|
