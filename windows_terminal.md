@@ -11,7 +11,7 @@
     * [including git-bash to Windows Terminal](#including-git-bash-to-windows-terminal)
     * [customizing git-bash](#customizing-git-bash)
         * [Coloring the shell](#coloring-the-shell)
-        * [ANSI Color Escape Codes](#ansi—color-escape-codes)
+        * [ANSI Color Escape Codes](#ansi-color-escape-codes)
         * [ANSI Font styles](#ansi-font-styles)
 
 
@@ -71,17 +71,16 @@ COLORm | Color Code + 'm' at the end
 
 ##### ANSI Color Escape Codes
 
-Color |	Foreground |	Background |	
+Color |	Foreground |	Background |	Sample
 ----|----|----|----
-Black |	30 |	40 	| ![black](https://placehold.co/15x15/000000/000000.png)  `#000000`
-  Red |	31 |	41 	| ![Red](https://placehold.co/15x15/ff0000/ff0000.png) `#ff0000`
-Green |	32 |	42 	| ![Green](https://placehold.co/15x15/008000/008000.png) `#008000`
-Brown |	33 |	43 	| ![Brown](https://placehold.co/15x15/A52A2A/A52A2A.png) `#A52A2A`
-Blue |	34 |	44 	| ![Blue](https://placehold.co/15x15/0000ff/0000ff.png) `#0000ff`
-Purple |	35 |	45 |	![Purple](https://placehold.co/15x15/800080/800080.png) `#800080`
-Cyan |	36 |	46 	| ![Cyan](https://placehold.co/15x15/00ffff/00ffff.png) `#00ffff`
+Black | 30 |	40 	| ![black](https://placehold.co/15x15/000000/000000.png)  `#000000`  
+Red |	31 |	41 	| ![Red](https://placehold.co/15x15/ff0000/ff0000.png) `#ff0000`  
+Green |	32 |	42 	| ![Green](https://placehold.co/15x15/008000/008000.png) `#008000`  
+Brown |	33 |	43 	| ![Brown](https://placehold.co/15x15/A52A2A/A52A2A.png) `#A52A2A`  
+Blue |	34 |	44 	| ![Blue](https://placehold.co/15x15/0000ff/0000ff.png) `#0000ff`  
+Purple |	35 |	45 |	![Purple](https://placehold.co/15x15/800080/800080.png) `#800080`  
+Cyan |	36 |	46 	| ![Cyan](https://placehold.co/15x15/00ffff/00ffff.png) `#00ffff`  
 Light Gray |	37 |	47 | ![Light Gray](https://placehold.co/15x15/D3D3D3/D3D3D3.png)  	`#D3D3D3`
-
 Dark Gray |	1;30| 	1;40 	| ![Dark Gray](https://placehold.co/15x15/A9A9A9/A9A9A9.png) 	`#A9A9A9`
 Light Red |	1;31| 	1;41 	| ![Light Red](https://placehold.co/15x15/FF3333/FF3333.png) 	`#FF3333`
 Light Green |	1;32 |	1;42 	 | ![Light Green](https://placehold.co/15x15/90EE90/90EE90.png) 	`#90EE90`
@@ -105,6 +104,6 @@ ANSI Code |	Description | Code
 
 Code: `$ echo -e "\e[1mBold Text\e[0m"`
 
-Code: `echo -e "\e[1;37;5;41mWhite Blinking Text over Red Background\e[0m"
+Code: `echo -e "\e[1;37;5;41mWhite Blinking Text over Red Background\e[0m"`  
 
 
