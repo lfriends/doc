@@ -1,7 +1,28 @@
-Remember:
+**Remember**:
 - You should put blank lines before and after a heading for compatibility. eg: #_heading_  (_ stands for spacing)
 - To create paragraphs, use a blank line
 - Don't put tabs or spaces in front of your paragraphs.
+
+# Table of contents
+
+* [Headings](heading-level-1-)
+* [Line Breaks](line-breaks)
+* [Horizontal Rule](horizontal-rule)
+* [Emphasis](emphasis)
+* [Sorted Lists](sorted-lists-1)
+* [Unsorted Lists](unsorted-lists)
+* [Qutes](quotes)
+    *[Code quote](code-quote)
+    *[Block quote](block-quote)
+    *[Fenced code block](fenced-code-block)
+    *[Lines quotes](lines-quote)
+* [Links & Images](links--images)
+* [Emoji](emoji)
+* [Table](table)
+* [Task List](task-list)
+* [External references](external-references)
+
+
 
 
 # Heading level 1 `#`
@@ -65,14 +86,15 @@ you can use a backslash (\) to escape the period.
 `- 1988\. Escape from New York`
 
 
-## QUOTES 
+## Quotes 
 
-**CODE**  
+##### Code quote  
 
 \`code\`  
 This is a `code`.
 
-**BLOCK QUOTES**  
+##### Block quote  
+
 
 to block a quote, add 1 tab or 4 spaces
 
@@ -83,7 +105,9 @@ to block a quote, add 1 tab or 4 spaces
       </head>
     </html>
     
-**FENCED CODE BLOCK**  
+##### Fenced code block 
+
+
 \```  ... \```
 ```
 {
@@ -92,8 +116,8 @@ to block a quote, add 1 tab or 4 spaces
   "age": 25
 }
 ```
+##### Lines quotes
 
-**LINE QUOTES**  
 \> ...  
 
 > Line 1 
@@ -103,7 +127,7 @@ to block a quote, add 1 tab or 4 spaces
 
 
 
-## LINKS & IMAGES
+## Links & Images
 
 Link \[title\](https://www.example.com)
 
@@ -124,9 +148,10 @@ But supports HTML TAGS
 
 ## EMOJI
 
-`:joy:` :joy: `:tent:` :tent: `:smile:` :smile: `:poop:` :poop: `:yum:` :yum: [...]
+*  [emoji shotrcodes](https://gist.github.com/rxaviers/7360908)  `:joy:` :joy: `:tent:` :tent: `:smile:` :smile: `:poop:` :poop: `:yum:` :yum: [...]
+     
 
-[emoji shotrcodes](https://gist.github.com/rxaviers/7360908)
+*  [emoji images](https://emojipedia.org/large-red-square/) 🚀
 
 
 ## Table 
@@ -153,5 +178,6 @@ But supports HTML TAGS
 ## External references
 
 * [basic-syntax](https://www.markdownguide.org/basic-syntax)
+* [GitHub Markdown documentation](https://docs.github.com/en/get-started/writing-on-github)
 * [emoji shotrcodes](https://gist.github.com/rxaviers/7360908)
-
+* [emoji images](https://emojipedia.org/large-red-square/)
