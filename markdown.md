@@ -1,3 +1,4 @@
+
 **Remember**:
 - You should put blank lines before and after a heading for compatibility. eg: #_heading_  (_ stands for spacing)
 - To create paragraphs, use a blank line
@@ -5,22 +6,26 @@
 
 # Table of contents
 
-* [Headings](heading-level-1-)
-* [Line Breaks](line-breaks)
-* [Horizontal Rule](horizontal-rule)
-* [Emphasis](emphasis)
-* [Sorted Lists](sorted-lists-1)
-* [Unsorted Lists](unsorted-lists)
-* [Qutes](quotes)
-    * [Code quote](code-quote)
-    * [Block quote](block-quote)
-    * [Fenced code block](fenced-code-block)
-    * [Lines quotes](lines-quotes)
-* [Links & Images](links--images)
-* [Emoji](emoji)
-* [Tables](tables)
-* [Task List](task-list)
-* [External references](external-references)
+* [Headings](#heading-level-1-)
+
+* [Horizontal Rule](#horizontal-rule)
+* [Text](text)
+    * [Line Breaks](#line-breaks)
+    * [Emphasis](#emphasis)
+    * [Colored](#colored)
+* [Sorted Lists](#sorted-lists-1)
+* [Unsorted Lists](#unsorted-lists--)
+* [Qutes](#quotes)  
+    * [Code quote](#code-quote)  
+    * [Block quote](#block-quote)  
+    * [Fenced code block](#fenced-code-block)
+    * [Lines quotes](#lines-quotes)
+    * [Sysntax higlight](syntax-highlight)
+* [Links & Images](#links--images)
+* [Emoji](#emoji)
+* [Tables](#tables)
+* [Task List](#task-list)
+* [External references](#external-references)
 
 
 
@@ -35,18 +40,25 @@
 Heading level 1 (alterntate )  `===============` <br>
 Heading level 2 (alterntate )  `---------------`
 
-## Line Breaks
+
+
+## Horizontal Rule
+\---
+
+
+## Text
+
+##### Line Breaks
 
 To create a line break or new line (`<br>`), end a line with **two or more spaces**, and then type return.
 
 You can use two or more spaces (commonly referred to as “trailing whitespace”) for line breaks in nearly
 every Markdown application, but it’s controversial. It’s hard to see trailing whitespace.<br>
 For this reason itis better to use the `<br>` tag.
-
-## Horizontal Rule
-\---
-
-## Emphasis
+   
+   
+##### Emphasis
+   
 - **Bold** :arrow_right: `**`
 - *Italic* :arrow_right: `*`
 - ***Bold & Italic*** :arrow_right: `***`
@@ -55,8 +67,50 @@ For this reason itis better to use the `<br>` tag.
 
 NOTE: also `__`__Undercores__`__` does the trik in pace of `**`**stars**`**`. But with Underscores you have always to put a blank space before and after!<br>
 eg: `(space)__`__Undercores__`__(space)`
+   
+   
+##### Colored
+   
+Markdown doesn't offert the option to color the text.  
+However, git-hib supports *language specific tags* to make code syntax highligh as explained [here](#sysntax-highlight)
 
 
+As an example, using **diff** syntax:  
+
+    ```diff  
+    +green highlithed text  
+    -red highlithed text 
+    @@purple text@@  
+    ```  
+
+```diff
++green highlithed text
+-red highlithed text
+@@purple text@@
+```
+
+Jsos sysntax 
+
+    ```json  
+    some color here
+    {"variable": "values"}
+    ```  
+
+```json  
+some color here  
+{"variable": "values"}
+```  
+
+... and so on.  
+The complete list of supported languages on git-hub is [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) 
+
+
+
+
+**Another trick**   (Not supported on git-hub !!)  
+is to use an emphy html ancor :
+
+`Making some [Blue](#) text`   
 
 
 ## Sorted Lists `1.`
@@ -124,6 +178,33 @@ to block a quote, add 1 tab or 4 spaces
 > > Line2 
 
 
+##### Sysntax highlight
+
+this feature is not a markdown standard!  
+therefore it only forks on certain sited (like git-hub)
+
+    ```html  
+    <span class="key">"hello":</span> <span class="string">"world"</span>
+    ```  
+
+```html  
+<span class="key">"hello":</span> <span class="string">"world"</span>
+``` 
+
+    ```sql  
+    select dummy from dual where dymmy is not null;
+    ```  
+
+```sql  
+select dummy from dual where dymmy is not null;
+```  
+
+
+
+... and so on.  
+The complete list of supported languages on git-hub is [here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) 
+
+
 
 
 
@@ -154,7 +235,7 @@ But supports HTML TAGS
 *  [emoji images](https://emojipedia.org/large-red-square/) 🚀
 
 
-## Tables 
+## Tables
 
 ```| Item| Price| # In stock |
 |-----|-----|---------|
