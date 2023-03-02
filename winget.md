@@ -1,5 +1,5 @@
 
-# Winget userful apps
+# Winget useful apps
 
 this document shows a list of useful app installable via winget for various environments
 
@@ -10,6 +10,11 @@ In case it is not available, you can force registration by issueing the followin
 
 `Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.`
 
+## Winget updates
+
+
+`winget upgrade --all`
+
 ## Basic environment
 
 ```
@@ -19,8 +24,22 @@ winget install VideoLAN.VLC
 winget install Notepad++.Notepad++
 winget install Google.Chrome
 winget install Mozilla.Firefox
-winget install Malwarebytes.Malwarebytes
 winget install Microsoft.PowerToys
+```
+
+## Antivirus
+
+```
+winget install Malwarebytes.Malwarebytes
+winget install ClamWin.ClamWin
+winget install ESET.ESETEndpointAntivirus
+winget install Bitdefender.Bitdefender
+```
+## Productivity
+
+```
+winget install LibreOffice.LibreOffice
+geeksoftwareGmbH.PDF24Creator
 ```
 
 ## Media
@@ -29,6 +48,7 @@ winget install Microsoft.PowerToys
 winget install GIMP.GIMP
 winget install HandBrake.HandBrake
 winget install Inkscape.Inkscape
+winget install ShareX.ShareX
 ```
 
 ## Gaming env
