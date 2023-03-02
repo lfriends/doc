@@ -3,6 +3,12 @@
 
 this document shows a list of useful app installable via winget for various environments
 
+## Winget Setup
+
+The winget command line tool is only supported on Windows 10 1709 (build 16299) or later  
+In case it is not available, you can force registration by issueing the following command in PowerShell:
+
+`Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.`
 
 ## Basic environment
 
