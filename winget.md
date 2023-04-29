@@ -38,7 +38,7 @@ winget install Bitdefender.Bitdefender
 ## Productivity
 
 ```
-winget install LibreOffice.LibreOffice
+winget install TheDocumentFoundation.LibreOffice
 geeksoftwareGmbH.PDF24Creator
 ```
 
